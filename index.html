@@ -31,9 +31,42 @@
 
         <!--Home Section-->
 
+        <section id="home">
+            <div class="container-fluid">
+                <div class="canvas" id="particles-js"></div>
+                <div class="row justify-content-center align-items-center homepage">
+                    <div class="col-md-7 col-sm-10">
+                        <div class="row justify-content-center">
+                            <div class="col-md-11 welcome">
+                                <span>Hello, I am <span class="name">Yashas Bysani Muralidhar</span>.
+                            </div>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <div class="col-md-10">
+                                <div class="typed typed-text">
+                                    <span class="element"></span>
+                                    <script>
+                                        var typed = new Typed('.element', {
+                                            strings: ["Application Development ", "Software Development ", "Full Stack Web Development ", "Android Application Development",
+                                                "Test Automation", "Devops"],
+                                            typeSpeed: 25,
+                                            backSpeed: 20,
+                                            loop: true,
+                                            backDelay: 800,
+                                            startDelay: 500,
+                                            smartBackspace: true
+                                        });
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--
         <section id="home" class="flex ">
-            <div class="modal-wrap flex">
-                <div id="particles-js" class="canvas"></div>
+            <div class="container-fluid flex">
                 <div class="homepage flex">
                     <div class="welcome-msg flex">
                         <div class="textbox">
@@ -64,6 +97,7 @@
                     </div>
                 </div>
         </section>
+    -->
 
         <!--Navigation Bar Section-->
 
@@ -87,10 +121,13 @@
                         <a href="#technicalSkills" class="nav-link slide scroll" data-to="section3">Technical Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#projects" class="nav-link slide scroll" data-to="section4">Projects</a>
+                        <a href="#resume" class="nav-link slide scroll" data-to="section4">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link slide scroll" data-to="section5">Contact Me</a>
+                        <a href="#projects" class="nav-link slide scroll" data-to="section5">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link slide scroll" data-to="section6">Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -99,125 +136,46 @@
         <!--About Section-->
 
         <section id="about">
-            <div class="container-fluid about-conatiner">
-
-                <!--About Title-->
-
-                <div class="row about-section1 justify-content-center">
-                    <div class="col-md-2 col-sm-6 about-title">
-                        <span class="about-span">
-                            ABOUT
-                        </span>
-                    </div>
-                </div>
-
-                <!--About DP, Description, Education-->
-
-                <div class="row justify-content-between about-section2">
-                    <div class="col-md-4 col-sm-6 about-sec2-col1">
+            <div class="container-fluid ">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-sm-8 box-layout ">
                         <div class="row justify-content-center">
-                            <div class="col-md-10 col-sm-6 dp">
-                                <div class="hexa ">
-                                    <div class="hex1">
-                                        <div class="hex2">
-                                            <img class="dp" src="Images/test.jpg" alt="Profile Image" width="320"
-                                                height="313" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-10 about-description">
-                                <span class="about-info">
-                                    A piece of code and a slice of pizza is what I call a typical Sunday! It fascinates
-                                    me as to how a bunch of cluttered words manifests into something so powerful on the
-                                    screen. I grew from an admirer to a passionate and a creative thinker, development
-                                    to me is an endless universe which I constantly want to be a part of and further my
-                                    skills. I believe that java is one of my strongest suits. Worked with organizations
-                                    and various academic projects where I got the opportunity to learn and also unlearn
-                                    a whole lot of things. I also have an interest in web development and automation.
-                                    <br><br>
-                                    <span class="description-italics">PS: Can have endless conversations about gadgets over a cup of
-                                            coffee anywhere. </span> 
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-7">
-                        <!--University 1-->
-                        <div class="row justify-content-center boxes">
-                            <div class="col-md-10 about-heading">
-                                <span>
-                                    Education Background
-                                </span>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center box-top-margin">
-                            <div class="col-md-10 edu-box">
-                                <div class="row ">
+                            <div class="col-md-10 col-sm-12 ">
+                                <div class="row justify-content-center align-items-center">
                                     <div class="col-md-4 ">
-                                        <div class="uni-image1 edu-img">
-                                            <img src="Images/pace-university.png" alt="pace-university" width="160px"
-                                                height="100px">
+                                        <div class="">
+                                            <img src="Images/profile.jpg" alt="profile image" class="mx auto border d-block roundeds img-fluid">
                                         </div>
                                     </div>
                                     <div class="col-md-8 ">
-                                        <div class="row justify-content-center boxes">
-                                            <div class="col-md-10 boxes">
-
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-10 about-heading text-center">
+                                                <span>About</span>
                                             </div>
                                         </div>
-                                        <div class="row justify-content-center boxes">
-                                            <div class="col-md-11 boxes">
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--University 2-->
-                        <div class="row justify-content-center box-top-margin">
-                            <div class="col-md-10 edu-box">
-                                <div class="row">
-                                    <div class="col-md-4 ">
-                                        <div class="uni-image2 edu-img">
-                                            <img src="Images/csudh.png" alt="" width="160px" height="100px">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8 ">
-                                        <div class="row justify-content-center boxes">
-                                            <div class="col-md-10 boxes">
-
-                                            </div>
-                                        </div>
-                                        <div class="row justify-content-center boxes">
-                                            <div class="col-md-11 boxes">
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--University 3-->
-                        <div class="row justify-content-center box-top-margin">
-                            <div class="col-md-10 edu-box">
-                                <div class="row">
-                                    <div class="col-md-4 ">
-                                        <div class="uni-image3 edu-img">
-                                            <img src="Images/mvit.jpg" alt="" width="100px" height="100px">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8 ">
-                                        <div class="row justify-content-center boxes">
-                                            <div class="col-md-10 boxes">
-
-                                            </div>
-                                        </div>
-                                        <div class="row justify-content-center boxes">
-                                            <div class="col-md-11 boxes">
-
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-10 text-justify">
+                                                <span class="about-des">
+                                                    A piece of code and a slice of pizza is what I call a typical
+                                                    Sunday! It fascinates
+                                                    me as to how a bunch of cluttered words manifests into something so
+                                                    powerful on the
+                                                    screen. I grew from an admirer to a passionate and a creative
+                                                    thinker, development
+                                                    to me is an endless universe which I constantly want to be a part
+                                                    of and further my
+                                                    skills. I believe that java is one of my strongest suits. Worked
+                                                    with organizations
+                                                    and various academic projects where I got the opportunity to learn
+                                                    and also unlearn
+                                                    a whole lot of things. I also have an interest in web development
+                                                    and automation.
+                                                    <br><br>
+                                                    <span><em>PS: Can have endless
+                                                            conversations about gadgets
+                                                            over a cup of
+                                                            coffee anywhere. </em></span>
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
@@ -225,107 +183,276 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!--About Experience-->
-
-                <div class="row about-section3 justify-content-center ">
-                    <div class="col-md-12">
-                        <div class="row boxes justify-content-center box-top-margin">
-                            <div class="about-heading">
-                                <span>
-                                    Experience
-                                </span>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center box-top-margin">
-                            <div class="col-md-8 edu-box">
-                                <div class="row">
-                                    <div class="col-md-4 edu-img">
-                                        <img src="Images/test.jpg" alt="" width="150px" height="100px">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row box-top-margin justify-content-center">
-                            <div class="col-md-8 boxes">
-
-                            </div>
-                        </div>
-                        <div class="row box-top-margin justify-content-center">
-                            <div class="col-md-8 boxes">
-
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
         </section>
 
         <!--Technical Skills Section-->
 
-        <section id="technicalSkills">
-            <div class="modal-wrap flex technical-container">
-
-            </div>
-        </section>
-        <section id="projects">
-            <div class="modal-wrap flex projects-container">
-
-            </div>
-        </section>
-
-        <!--Contact Section-->
-
-        <section id="contact">
-            <div class="modal-wrap flex contact-container">
-                <div class="contact-title">
-                    <span>Contact</span>
-                </div>
-
-                <div class="flex" id="contact-information">
-                    <div class="contact-info">
-                        <div class="flex location">
-                            <div class="location-icon"><i class="fa fa-location-arrow" aria-hidden="true"></i></div>
-                            <div class="contact-subtitle"><span>Location</span></div>
-                            <div class="flex contact-details">
-                                <span>Jersey City, New Jersey - 07306</span>
+        <section id="Skills">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 box-layout">
+                        <div class="row justify-content-center">
+                            <div class="col-md-10 text-center skills-heading">
+                                <span>Skills</span>
                             </div>
                         </div>
-                        <div class="flex phone">
-                            <div class="phone-icon"><i class="fa fa-phone fa-rotate-90" aria-hidden="true"></i></div>
-                            <div class="flex"><span class="glyphicon glyphicon-earphone"></span></div>
-                            <div class="contact-subtitle"><span>Phone</span></div>
-                            <div class="flex contact-details">
-                                <span>(+1) 424-340-4016</span>
-                            </div>
-                        </div>
-                        <div class="flex email">
-                            <div class="email-icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                            <div class="contact-subtitle"><span>Email</span></div>
-                            <div class="flex contact-details">
-                                <span>yashasbysani@gmail.com</span>
+                        <div class="row justify-content-center">
+                            <div class="col-md-10">
+                                    <div class="progress my-4">
+                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                            </div>
+                                            <span class="progress-type">HTML5</span>
+                                        </div>
+                                    
+                                        <div class="progress my-4">
+                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                                            </div>
+                                            <span class="progress-type">CSS / CSS3 / SASS </span>
+                                        </div>
+                                    
+                                        <div class="progress my-4">
+                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            </div>
+                                            <span class="progress-type">Javascript / Jquery</span>
+                                        </div>
+                                    
+                                        <div class="progress my-4">
+                                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                            </div>
+                                            <span class="progress-type">(Frameworks) React-JS / React</span>
+                                        </div>
+                                      
+                                        </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
-        <!--Footer Section-->
+        <!--Experience Section-->
 
-        <section id="footer">
-            <div class="footer flex">
-                <div class="footer-text">
-                    <span>© 2018 Yashas Bysani Muralidhar. All Rights Reserved</span>
+        <section id="experience">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 experience-layout">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4 experience-heading text-center">
+                                <span>Work Experience</span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-10  font-description">
+                                <div class="work-experience">
+
+                                    <!--first section-->
+
+                                    <div class="row align-items-center timeline-items d-flex">
+                                        <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+                                            <div class="circle font-weight-bold">1</div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-10">
+                                            <div class="row justify-content-start">
+                                                <div class="col-md-8 company-name">
+                                                    <span>Department of Sanitation, New York</span>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-md-5 time-period text-muted">
+                                                    <span>October 18 - Present</span>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-8 job-role text-justify">
+                                                    <ul>
+                                                        <li>
+
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-9 job-desc">
+                                                    <span>Quality Assurance Automation Engineer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--path between 1-2-->
+
+                                    <div class="row timeline">
+                                        <div class="col-2  ">
+                                            <div class="corner top-right-first"></div>
+                                        </div>
+                                        <div class="col-8 ">
+                                            <hr />
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="corner left-bottom"></div>
+                                        </div>
+                                    </div>
+
+                                    <!--second section-->
+
+                                    <div class="row align-items-center justify-content-end timeline-items d-flex">
+                                        <div class="col-md-8 text-right ">
+                                            <div class="row justify-content-end">
+                                                <div class="col-md-8 company-name">
+                                                    <span>Department of Sanitation, New York</span>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-end">
+                                                <div class="col-md-6 job-desc">
+                                                    <span>Quality Assurance Intern</span>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-end">
+                                                <div class="col-md-4 time-period text-muted">
+                                                    <span>June 18 - August 18</span>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-end">
+                                                <div class="col-md-12 job-role text-justify">
+                                                    <ul>
+                                                        <li>
+                                                            Reduced 50% of manual effort by updating modules of the
+                                                            framework for testing the software “S.M.A.R.T” using Java
+                                                        </li>
+                                                        <li>
+                                                            Performed end user testing for the offline scenario of the
+                                                            software “S.M.A.R.T” using manual testing
+                                                        </li>
+                                                        <li>
+                                                            Yielded a 90% reduction in manual effort by automating 70+
+                                                            test cases (validating web forms, web links and, UI) for
+                                                            DSNY
+                                                            website (www1.nyc.gov/assets/dsny/site/home) using Java,
+                                                            Selenium WebDriver, JUnit and TestNG
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                                            <div class="circle font-weight-bold">2</div>
+                                        </div>
+                                    </div>
+
+                                    <!--path between 2-3-->
+
+                                    <div class="row timeline">
+                                        <div class="col-2">
+                                            <div class="corner right-bottom"></div>
+                                        </div>
+                                        <div class="col-8">
+                                            <hr />
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="corner top-left"></div>
+                                        </div>
+                                    </div>
+
+                                    <!--third section-->
+
+                                    <div class="row align-items-center timeline-items d-flex">
+                                        <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                                            <div class="circle font-weight-bold">3</div>
+                                        </div>
+                                        <div class="col-7 ">
+                                            <div class="row justify-content-start">
+                                                <div class="col-md-6 company-name">
+                                                    <span>Unitech Transfer</span>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-md-4 time-period text-muted">
+                                                    <span>July 16 - August 16</span>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-8 job-role text-justify">
+                                                    <span>Job role</span>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 job-desc">
+                                                    <span>Software Engineer Intern</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--path between 3-4-->
+
+                                    <div class="row timeline">
+                                        <div class="col-2">
+                                            <div class="corner top-right"></div>
+                                        </div>
+                                        <div class="col-8">
+                                            <hr />
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="corner left-bottom"></div>
+                                        </div>
+                                    </div>
+
+                                    <!--fourth section-->
+
+                                    <div class="row align-items-center justify-content-end timeline-items d-flex">
+                                        <div class="col-7 text-right">
+                                            <div class="row justify-content-end">
+                                                <div class="col-md-6 company-name">
+                                                    <span>Prakyath Applications</span>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-end">
+                                                <div class="col-md-4 time-period text-muted">
+                                                    <span>July 15 - March 16</span>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-end">
+                                                <div class="col-md-8 job-role ">
+                                                    <span>Job role</span>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-end">
+                                                <div class="col-md-6 job-desc">
+                                                    <span>Android Developer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                                            <div class="circle font-weight-bold">4</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-
     </div>
+
+    <!--Education Section-->
+
+    <section id="education">
+        <div class="container-fluid">
+
+        </div>
+    </section>
+
+    <!--Projects Section-->
+
+    <section id="projects">
+        <div class="container-fluid">
+
+        </div>
+    </section>
 
     <!--Script's Initialization-->
 
