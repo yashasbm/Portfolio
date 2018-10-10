@@ -1,13 +1,16 @@
 $(document).ready(function () {
 
     /* Navbar Smooth Scrolling */
-    var scrollLink = $('.scroll');
-    scrollLink.click(function(e){
+    $('.scrollto').on('click', function(e){
+        
+        //store hash
+        var target = this.hash;
+                
         e.preventDefault();
-        $('body,html').animate({
-            scrollTop: $(this.hash).offset().top
-        }, 1000);
-    });
+        
+		$('body').scrollTo(target, 800, {offset: -20, 'axis':'y'});
+		
+	});
 
     /* Navbar Highlight on Scroll */
     $('.slide').click(function () {
@@ -32,4 +35,15 @@ $(document).ready(function () {
 
         })
     })
+
+    $('#inline-popups,#inline-popups-2,#inline-popups-3,#inline-popups-4,#inline-popups-5,#inline-popups-6').magnificPopup({
+		delegate: 'a',
+		removalDelay: 400, //delay removal by X to allow out-animation
+		callbacks: {
+			beforeOpen: function() {
+				this.st.mainClass = this.st.el.attr('data-effect');
+			}
+		},
+		midClick: true
+	});
 });
