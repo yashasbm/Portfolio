@@ -25,7 +25,14 @@ body {
 .box-layout {
   padding: 20px;
   margin-top: 30px;
-  margin-block-end: 30px;
+}
+
+@media only screen and (max-width:600px){
+  .boxlayout{
+    padding: 10px;
+    margin-top: 10px;
+
+  }
 }
 
 /* Scroll Bar*/
@@ -88,7 +95,6 @@ body {
 
 .homepage {
   height: 100vh;
-  width: 100%;
 }
 
 .welcome {
@@ -108,45 +114,19 @@ body {
   font-weight: 600;
 }
 
-.mouse {
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
-.down {
-  position: relative;
-  width: 50px;
-  height: 80px;
-  border-radius: 25px;
-  background: transparent;
-  border: #04b2c9 3px solid;
-  overflow: hidden;
-}
-
-.down::before {
-  content: "";
-  position: absolute;
-  width: 6px;
-  height: 8px;
-  border-radius: 50%;
-  background: #04c2c9;
-  left: 50%;
-  top: 5px;
-  transform: translate(-50%, 0);
-  animation: animate 2s linear infinite;
-}
-
-@keyframes animate {
-  0% {
-    transform: translate(-50%, 10px);
+@media only screen and (max-width: 600px){
+  .typed-text{
+    font-size: 16pt;
+    margin-top: 25px;
   }
-  50% {
-    transform: translate(-50%, 50px);
+
+  .welcome{
+    font-size: 22pt
   }
-  100% {
-    transform: translate(-50%, 100px);
+
+  .name{
+    font-size: 24pt;
   }
 }
 
@@ -349,6 +329,33 @@ color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
+@media only screen and (max-width:600px){
+  .experience-heading{
+    font-size: 24pt;
+  }
+
+  .company-name{
+    font-size: 16pt;
+  }
+
+  .job-desc{
+    font-size: 14pt;
+  }
+
+  .time-period{
+    font-size: 12pt;
+  }
+
+  .job-role{
+    font-size: 13pt;
+  }
+
+  .exp-1{
+    margin: 0 0 0 100px;
+  }
+
+}
+
 /* Education Section */
 
 .edu-heading{
@@ -401,6 +408,36 @@ strong{
   margin-right: 10px;
   font-weight: 500;
   font-size: 12pt;
+}
+
+@media only screen and (max-width:600px){
+  .uni1{
+    margin: 0;
+  }
+  
+  .uni2{
+    margin: 25px 0;
+  }
+
+  .degree{
+    font-size: 18pt;
+    line-height: 22pt;
+  }
+
+  .uni-name{
+    font-size: 14pt;
+  }
+
+  .edu-timeline{
+    font-size: 12pt;
+  }
+
+  .uni-desc{
+    font-size: 13pt;
+  }
+  strong{
+    font-size: 14pt;
+  }
 }
 
 
@@ -573,4 +610,31 @@ strong{
 
 .no-pad {
 	padding: 0;
+}
+
+
+
+
+/* Contact */
+
+.contact-container{
+  background-color: #252934;
+  margin-top: 50px;
+  height: 100vh;
+}
+
+.contact-top {
+  position: relative;
+  height: 50px;
+  width:100%;
+  background: white !important;
+}
+.contact-top:before {
+content: "";
+position: absolute;
+top: 100%;
+left: 0;
+border-top: 60px solid white !important;
+border-left: 49vw solid transparent;
+border-right: 50vw solid transparent;
 }
