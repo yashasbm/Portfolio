@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    
+
     /* Navbar Smooth Scrolling */
     $('.scrollto').on('click', function(e){
         
@@ -47,3 +49,5 @@ $(document).ready(function () {
 		midClick: true
 	});
 });
+
+
