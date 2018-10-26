@@ -357,8 +357,8 @@ body {
       transform: rotate(0deg);
   }
   100%{
-      -webkit-transform: rotate(144deg);
-      transform: rotate(144deg);
+      -webkit-transform: rotate(105deg);
+      transform: rotate(105deg);
   }
 }
 @keyframes loading-3{
@@ -367,8 +367,8 @@ body {
       transform: rotate(0deg);
   }
   100%{
-      -webkit-transform: rotate(90deg);
-      transform: rotate(90deg);
+      -webkit-transform: rotate(80deg);
+      transform: rotate(80deg);
   }
 }
 
@@ -377,6 +377,10 @@ body {
     margin-bottom: 20px;
     font-size: 8pt;
    }
+
+    .programming-languages{
+        margin-top: 50px;
+    }
 }
 
 .other-skills{
@@ -674,7 +678,7 @@ strong{
 	overflow: hidden;
 	top: 0;
 	left: 0;
-	padding: 3em;
+	padding: 4em;
 	text-align: left;
 }
 
@@ -716,7 +720,8 @@ strong{
 	left: 20px;
 	border: 1px solid #fff;
 	content: '';
-	opacity: 0;
+  opacity: 0;
+  font-size: 20pt;
 	filter: alpha(opacity=0);
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
 	transition: opacity 0.35s, -webkit-transform 0.45s;
@@ -804,6 +809,11 @@ strong{
 
 .modal.and.carousel {
   position: fixed; /* Needed because the carousel overrides the position property*/
+}
+
+.project-git{
+  font-size: 20pt;
+  color: white !important;
 }
 
 
