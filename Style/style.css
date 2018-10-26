@@ -373,6 +373,10 @@ body {
    }
 }
 
+.other-skills{
+  margin-top: 80px;
+}
+
 /* Experience Section */
 
 .experience-layout{
@@ -805,7 +809,6 @@ strong{
 .contact-container{
   background-color: #252934;
   margin-top: 50px;
-  height: 100vh;
 }
 
 .contact-top {
@@ -813,6 +816,7 @@ strong{
   height: 50px;
   width:100%;
   background: white !important;
+  border: 0px solid white !important;
 }
 .contact-top:before {
 content: "";
@@ -826,6 +830,37 @@ border-right: 50vw solid transparent;
 
 .contact-header{
   color: white !important;
-  margin-top: 150px;
+  margin-top: 115px;
   font-size: 28pt;
+}
+
+.contact-heading{
+  color: #04b2c9;
+  border-bottom: 1.5px solid #04B2C9;
+}
+
+.contact-icons  {
+  margin: 180px 0 150px 0;
+}
+
+
+.contact-icon{
+  color: white !important;
+  font-size: 40pt;
+  line-height: 25pt;
+}
+
+footer{
+  background-color: #1D212A;
+  color: #04b2c9 !important;
+}
+
+@media only screen and (max-width:600px){
+  .contact-icon{
+    font-size: 20pt;
+  }
+
+  .contact-icons{
+    margin: 40px;
+  }
 }
