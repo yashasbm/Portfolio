@@ -169,6 +169,12 @@ body {
 
 
 /* Technical Skills Section */
+
+#technicalskills{
+  background-color: #252934;
+  color: white !important
+}
+
 .tech-heading{
   font-size: 32pt;
 }
@@ -258,7 +264,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 2px solid #252934;
   position: absolute;
   top: 0;
   left: 0;
@@ -307,7 +313,7 @@ body {
   width: 85%;
   height: 85%;
   border-radius: 50%;
-  border: 2px solid #ebebeb;
+  border: 2px solid white;
   line-height: 125px;
   text-align: center;
   position: absolute;
@@ -319,7 +325,7 @@ body {
   border-color: #04b2c9;
 }
 .progress-circ.java .progress-value{
-  color: #252934;
+  color: white !important;
   font-size: 16pt;
 }
 .progress-circ.java .progress-left .progress-bar{
@@ -329,7 +335,7 @@ body {
   border-color: #04b2c9;
 }
 .progress-circ.python .progress-value{
-  color: #252934;
+  color: white;
   font-size: 16pt;
 }
 .progress-circ.python .progress-left .progress-bar{
