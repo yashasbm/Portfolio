@@ -372,6 +372,10 @@ body {
   }
 }
 
+.tech-skills-combo{
+  margin-top: 50px;
+}
+
 @media only screen and (max-width: 990px){
   .progress-circ{ 
     margin-bottom: 20px;
