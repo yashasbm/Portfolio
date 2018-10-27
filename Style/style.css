@@ -28,7 +28,7 @@ body {
 
 .box-layout {
   padding: 20px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width:600px){
@@ -247,7 +247,7 @@ body {
 }
 
 .circprogress{
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .progress-circ{
@@ -370,6 +370,10 @@ body {
       -webkit-transform: rotate(80deg);
       transform: rotate(80deg);
   }
+}
+
+.circ-box{
+  margin-top: 20px;
 }
 
 .tech-skills-combo{
